@@ -1,0 +1,45 @@
+.section-center{
+  display: flex;
+  align-items: center;
+  
+  flex-direction: column;
+  gap: 1em;
+
+  padding-top: 4em;
+}
+h3{
+  color: rgb(4, 4, 70);
+  text-transform: uppercase;
+}
+form{
+  display: flex;
+  flex-direction: row;
+  color:rgb(56, 56, 55);
+  gap: 1em;
+}
+input{
+  position: relative;
+  top: 1.2em;
+  padding: .5em;
+  height: 9px;
+  width: 40px;
+  border: none;
+}
+button{
+  border: none;
+  background-color: rgb(93, 93, 179);
+  color: white;
+  width: 5em;
+  height: 2em;
+  border-radius: .2em;
+
+  position: relative;
+  top: 1em;
+  cursor: pointer;
+}
+
+.lorem-text{
+  max-width: 700px;
+  margin: 1em;
+  text-align: center;
+}
